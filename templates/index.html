@@ -6,20 +6,42 @@
 </head>
 <body>
 
-    <h1> Welcome to this test project </h1>
+    <h1> Welcome To First Django Project </h1>
     <hr>
-    <p> Hello {{ name }}</p>
     <div class="Posts">
         <div class="post">
-            <h3 class="title">Contact List</h3>
-            <p class="body"> Here i am tyring to add so many contact that i need to connect them</p>
+            <h2 class="title">Contact List</h2>
+
+            <table class="table">
+          <thead>
+            <tr>
+              <th>Id</th>
+              <th>Name</th>
+              <th>Phone No</th>
+            </tr>
+          </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Shakib</td>
+                  <td>01748150380</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Mostak</td>
+                  <td>01834071848</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+
+                  <td>Fayjun Nahar</td>
+                  <td>017576667534</td>
+                </tr>
+              </tbody>
+    </table>
+
+
         </div>
     </div>
-
-
-    <p> Here i am tyring to add so many contact that i need to connect them</p>
-
-    <h2>Update Contact </h2>
-        <p> here i am try to add conacat when i met new people</p>
 </body>
 </html>
